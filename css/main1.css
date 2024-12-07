@@ -1,0 +1,87 @@
+.txtArea{
+    vertical-align: top;
+}
+
+.submit{
+    margin-left: 210px;
+}
+
+/* index2 style */
+.div1{
+    height:430px;
+    width:100%;
+    border:2px solid black;
+}
+
+.personal {
+    white-space: nowrap;
+    width: 107px;
+    margin-top: -10px;
+    margin-left: 23px;
+    background: white;
+    
+}
+
+
+.firstN,.lastN,.gender,.email,.date{
+    margin-left: 20px;
+}
+
+#address,#submit,#salutation{
+    margin-left: 20px;
+}
+
+/* index3 style */
+.div2{
+   
+    border: 2px dotted black;
+    width: 381px;
+    height: 100px;
+    padding: 15px;
+}
+
+/* index4 style */
+
+.div3{
+    height: 203px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 75px;
+    margin-left: 450px;
+    background-color: #FFFFDC;
+}
+
+
+.div3 label{
+    margin-left: 60px;
+}
+
+.div3 input{
+    margin-left: 15px;
+
+}
+
+.div4{
+    height: 70px;
+    width: 400px;
+    border: 2px solid black;
+    margin: -55px;
+    margin-left: 450px;
+    background-color: #FFFFDC;
+}
+
+.div4 label{
+    margin-left: 105px;
+}
+
+.div4 select{
+    margin-left: 10px;
+}
+
+.btn1{
+    margin-left: 610px;
+}
+
+table,th,tr,td{
+    border: 1px solid black; 
+}

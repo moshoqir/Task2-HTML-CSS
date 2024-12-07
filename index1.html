@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise#1</title>
+    <link rel="stylesheet" href="css/main1.css">
+</head>
+
+<body>
+    <h1>Regestration Form</h1>
+    <form action="" method="post">
+        &nbsp;&nbsp;&nbsp;<label for="id">User Id:</label>
+        <input type="text" id="id" name="id" size="15"> <br> <br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" width="20px" size="15"> <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; <label for="name">Name:</label>
+        <input type="text" name="name" id="name" size="40"><br><br>
+        &nbsp;&nbsp;<label for="address">Address:</label>
+        <input type="text" name="address" id="address" size="40"> <br><br>
+        &nbsp;&nbsp;<label for="country">Country:</label>
+        <select name="country" id="country">
+            
+                <option value="0" disabled selected>(Please select a country)</option>
+                <option value="1">Jordan</option>
+                <option value="2">Palestine</option>
+                <option value="3">Syria</option>
+                <option value="4">Lebanon</option>
+            
+
+
+        </select> <br><br>
+
+        <label for="zip">ZIP Code:</label>
+        <input type="text" name="zip" id="zip" ><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<label for="email">Email:</label>
+        <input type="email" name="email" id="email" size="40"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male" >Male</label>
+        <input type="radio" name="sex" id="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="">Language:</label>
+
+        <input type="checkbox" name="lang" id="eng">
+        <label for="eng">English</label>
+        <input type="checkbox" name="lang" id="nonEng">
+        <label for="nonEng">Non English</label><br><br>
+
+        &nbsp; &nbsp;<label for="about">About:</label>
+
+       <textarea class="txtArea" name="" id="" cols="50" rows="10" placeholder="About"></textarea><br><br>
+       
+        <input class="submit" type="submit" >
+    </form>
+</body>
+</html>
